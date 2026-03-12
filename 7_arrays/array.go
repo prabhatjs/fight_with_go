@@ -37,9 +37,9 @@ func main() {
 	noncopy := [4]int{1, 3, 4, 5}
 	copyarray := noncopy
 
-	fmt.Println(copyarray)
+	fmt.Println(copyarray) //[1,3,4,5]
 	copyarray[1] = 500
-	fmt.Println(copyarray)
+	fmt.Println(copyarray) //[1,500,4,5]
 
 	//add element
 	nums[9] = 1
